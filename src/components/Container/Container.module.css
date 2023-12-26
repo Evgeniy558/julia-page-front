@@ -1,0 +1,19 @@
+.Container {
+  max-width: none;
+  margin: auto;
+  background-color: var(--secondary-color);
+  min-width: var(--min-mobile-width);
+  max-width: var(--max-mobile-width);
+}
+@media screen and (min-width: 768px) {
+  .Container {
+    min-width: var(--min-table-width);
+    max-width: var(--max-table-width);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Container {
+    max-width: var(--desctop-width);
+  }
+}
