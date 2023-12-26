@@ -1,8 +1,9 @@
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
-  /* --font-family: "Arial", sans-serif; */
-  --base-font-size: 20px;
+  --font-family: "Roboto", sans-serif;
+  --base-font-size: 16px;
+  --secondary-font-size: 14px;
   --min-mobile-width: 320px;
   --max-mobile-width: 767px;
   --min-table-width: 768px;
