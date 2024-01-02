@@ -1,17 +1,14 @@
-import AuthBarButton from "./AuthBarButton/AuthBarButton";
 import HeaderContactsBar from "./HeaderContactsBar/HeaderContactsBar";
 import css from "./Header.module.css";
-import LanguageSelector from "./LanguageSelector/LanguageSelector";
+
+import HeaderRegistrationBar from "./HeaderRegistrationBar/HeaderRegistrationBar";
 const Header = () => {
   return (
     <>
       <header>
         <div className={css.container}>
           <HeaderContactsBar />
-          <div>
-            <LanguageSelector />
-            <AuthBarButton />
-          </div>
+          <HeaderRegistrationBar />
         </div>
       </header>
     </>

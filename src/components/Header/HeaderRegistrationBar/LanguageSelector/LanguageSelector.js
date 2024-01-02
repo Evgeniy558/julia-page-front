@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef } from "react";
-import { HomeSvgSelector } from "../HomeSvgSelector/HomeSvgSelector";
+import { HomeSvgSelector } from "../../HomeSvgSelector/HomeSvgSelector";
+
 import css from "./LanguageSelector.module.css";
 
 const LanguageSelector = () => {
   const [dropdownVisible, setDropDownVisible] = useState(false);
-  const wrapperRef = useRef(); // Используем ref для обертывающего div
-
+  const wrapperRef = useRef();
+  console.log(wrapperRef);
   const toggleDropdown = () => {
     setDropDownVisible(!dropdownVisible);
   };
@@ -25,11 +26,15 @@ const LanguageSelector = () => {
   }, []);
 
   return (
-    <div ref={wrapperRef} className={css.container}>
-      <div onClick={toggleDropdown}>
-        <HomeSvgSelector id="language" />
-        <span>Выбери язык</span>
-      </div>
+    <div
+      ref={wrapperRef}
+      onMouseEnter={toggleDropdown}
+      onMouseLeave={toggleDropdown}
+      className={css.container}
+    >
+      <HomeSvgSelector id="language" width={14} height={14} />
+      <span>Выбери язык</span>
+
       {dropdownVisible && (
         <div
           className={`${css.dropdownContent} ${
