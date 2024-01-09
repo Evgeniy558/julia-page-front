@@ -11,5 +11,6 @@
   --max-table-width: 1279px;
   --desctop-width: 1280px;
   --button-color-primary: rgb(255, 196, 2);
-  --animation: animationScale 0.2s ease-in 0s 1 normal forwards;
+  --base-scale: scale(1.05);
+  --base-scale-transform: transform 200ms ease-in-out;
 }

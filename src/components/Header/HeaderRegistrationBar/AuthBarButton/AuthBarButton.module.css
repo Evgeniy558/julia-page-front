@@ -7,4 +7,6 @@
 }
 .button:hover {
   cursor: pointer;
+  transform: var(--base-scale);
+  transition: var(--base-scale-transform);
 }

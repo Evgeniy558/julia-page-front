@@ -7,7 +7,8 @@
 
 .link:hover {
   color: var(--primary-hover-color);
-  animation: animationScale 0.2s ease-in 0s 1 normal forwards;
+  transform: var(--base-scale);
+  transition: var(--base-scale-transform);
 }
 
 .text {

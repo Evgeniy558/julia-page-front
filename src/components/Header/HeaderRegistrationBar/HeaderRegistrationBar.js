@@ -1,5 +1,5 @@
 import AuthBarButton from "./AuthBarButton/AuthBarButton";
-import LanguageSelector from "./LanguageSelector/LanguageSelector";
+import LanguageSelector from "./LanguageDropdownMenu/LanguageDropdownMenu";
 import css from "./HeaderregistrationBar.module.css";
 const HeaderRegistrationBar = () => {
   return (
