@@ -1,19 +1,26 @@
+import { NavLink } from "react-router-dom";
 import css from "./HeaderNav.module.css";
 const HeaderNav = () => {
   return (
-    <nav className={css.navBar}>
+    <section className={css.navBar}>
       <div className={css.titleWrap}>
-        <div className={css.title}>Юлия Прищепова</div>
+        <div className={css.title}>Имя Фамилия</div>
         <div className={css.titleDescription}>
           Ваш консультант и поектант в цифровой стоматологии
         </div>
       </div>
-      <ul className={css.navMenu}>
-        <li className={css.navMenuItem}>Главная страница</li>
-        <li className={css.navMenuItem}>Цены</li>
-        <li className={css.navMenuItem}>Контакт</li>
-      </ul>
-    </nav>
+      <nav className={css.navMenu}>
+        <NavLink className={css.navMenuItem} to="/">
+          Главная страница
+        </NavLink>
+        <NavLink className={css.navMenuItem} to="/prices">
+          Цены
+        </NavLink>
+        <NavLink className={css.navMenuItem} to="/contacts">
+          Контакт
+        </NavLink>
+      </nav>
+    </section>
   );
 };
 export default HeaderNav;

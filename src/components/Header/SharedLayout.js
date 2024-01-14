@@ -1,9 +1,10 @@
 import HeaderContactsBar from "./HeaderContactsBar/HeaderContactsBar";
-import css from "./Header.module.css";
+import css from "./SharedLayout.module.css";
 
 import HeaderRegistrationBar from "./HeaderRegistrationBar/HeaderRegistrationBar";
 import HeaderNav from "./HeaderNav/HeaderNav";
-const Header = () => {
+import { Outlet } from "react-router-dom";
+const SharedLayout = () => {
   return (
     <>
       <header>
@@ -13,7 +14,8 @@ const Header = () => {
         </div>
         <HeaderNav />
       </header>
+      <Outlet />
     </>
   );
 };
-export default Header;
+export default SharedLayout;

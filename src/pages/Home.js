@@ -1,10 +1,4 @@
-import Header from "../components/Header/Header";
-
 const Home = () => {
-  return (
-    <>
-      <Header />
-    </>
-  );
+  return <secrion>Home page</secrion>;
 };
 export default Home;
