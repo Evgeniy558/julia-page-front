@@ -25,3 +25,31 @@
   font-weight: bold;
   font-style: italic;
 }
+
+@font-face {
+  font-family: "Miama-Nueva";
+  src: url("./../assets/fonts/roboto/Miama-Nueva-ru.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Miama-Nueva";
+  src: url("./../assets/fonts/roboto/Miama-Nueva-ru.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Miama-Nueva";
+  src: url("./../assets/fonts/roboto/Miama-Nueva-ru.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Miama-Nueva";
+  src: url("./../assets/fonts/roboto/Miama-Nueva-ru.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
