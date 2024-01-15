@@ -14,7 +14,9 @@ const SharedLayout = () => {
         </div>
         <HeaderNav />
       </header>
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </>
   );
 };
