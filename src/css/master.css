@@ -15,4 +15,5 @@
   --button-color-primary: rgb(255, 196, 2);
   --base-scale: scale(1.05);
   --base-scale-transform: transform 200ms ease-in-out;
+  position: relative;
 }

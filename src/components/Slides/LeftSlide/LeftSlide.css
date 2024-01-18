@@ -1,10 +1,31 @@
-.slide_title {
-  margin: 0 auto;
+.slideContainer {
+  width: 100vw;
+  position: relative;
 }
+
 .slide {
-  display: flex;
+  position: absolute;
+  transform: translateX(-300%);
+  left: 0;
+  display: none;
   justify-content: left;
   height: fit-content;
+  width: 1280px;
+}
+.slide.entering {
+  display: flex;
+}
+
+.slide.entered {
+  display: flex;
+  left: 50%;
+  transform: translateX(0%);
+  transition: transform 0.2s ease-in-out;
+  position: static;
+}
+.slide.exiting {
+}
+.slide.exited {
 }
 
 .slide_foto {
@@ -31,4 +52,5 @@
 .slide_text {
   flex-basis: 50%;
   height: 200px;
+  width: 400px;
 }
