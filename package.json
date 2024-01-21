@@ -2,6 +2,7 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://evgeniy558.github.io/julia-page-front",
   "dependencies": {
     "@types/react-transition-group": "^4.4.10",
     "react": "^18.2.0",
