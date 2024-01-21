@@ -8,7 +8,7 @@ import "./css/fonts.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/julia-page-front">
     <App />
   </BrowserRouter>
 );
