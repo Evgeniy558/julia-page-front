@@ -1,6 +1,6 @@
 :root {
   --primary-color: #3498db;
-  --secondary-color: rgb(134, 111, 197);
+  --secondary-color: rgb(189, 248, 181);
   --primary-hover-color: rgb(251, 255, 0);
   --primary-text-color: black;
   --font-family: "Roboto", sans-serif;
@@ -15,5 +15,4 @@
   --button-color-primary: rgb(255, 196, 2);
   --base-scale: scale(1.05);
   --base-scale-transform: transform 200ms ease-in-out;
-  position: relative;
 }

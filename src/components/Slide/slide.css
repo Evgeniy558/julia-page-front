@@ -1,0 +1,64 @@
+.slide {
+  position: relative;
+  height: fit-content;
+  width: inherit;
+  display: flex;
+  opacity: 0;
+}
+
+.slide.left {
+  transform: translateX(-100%);
+}
+
+.slide.entered,
+.slide.right.entered {
+  transform: translateX(0%);
+  opacity: 1;
+  transition-behavior: normal, normal;
+  transition-duration: 1000ms, 1000ms;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1),
+    cubic-bezier(0.19, 1, 0.22, 1);
+  transition-delay: 0s, 0s;
+  transition-property: transform, opacity;
+}
+
+.slide.right {
+  transform: translateX(100%);
+}
+
+.slide_photo {
+  position: relative;
+  flex-grow: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide_photo::before {
+  content: "";
+  background: url("../../../public/images/anti-arrow-gray-right.png");
+  background-size: contain;
+  position: absolute;
+  background-position: right top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  filter: contrast(0%) brightness(200%);
+}
+.slide_photo.right::before {
+  content: "";
+  background: url("../../../public/images/anti-arrow-gray-left.png");
+  background-size: contain;
+  position: absolute;
+  background-position: left top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  filter: contrast(0%) brightness(200%);
+}
+
+.slide_info {
+  flex-basis: 50%;
+  height: 200px;
+  width: 400px;
+}
