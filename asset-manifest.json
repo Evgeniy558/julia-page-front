@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/julia-page-front/static/css/main.01af4390.css",
-    "main.js": "/julia-page-front/static/js/main.13cd8cb7.js",
+    "main.css": "/julia-page-front/static/css/main.f6ea864b.css",
+    "main.js": "/julia-page-front/static/js/main.3c10d73c.js",
     "static/media/Miama-Nueva-ru.ttf": "/julia-page-front/static/media/Miama-Nueva-ru.9837b9f4c96faa8265db.ttf",
     "static/media/Roboto-BoldItalic.ttf": "/julia-page-front/static/media/Roboto-BoldItalic.87d61cea6fe1d235d4a8.ttf",
     "static/media/Roboto-Italic.ttf": "/julia-page-front/static/media/Roboto-Italic.87f3afe16a8c3c370634.ttf",
     "static/media/Roboto-Regular.ttf": "/julia-page-front/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Bold.ttf": "/julia-page-front/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/test1.jpg": "/julia-page-front/static/media/test1.c784b99a5f86807d7939.jpg",
+    "static/media/test2.jpg": "/julia-page-front/static/media/test2.de2a721725e1a6a452d9.jpg",
     "static/media/anti-arrow-gray-right.png": "/julia-page-front/static/media/anti-arrow-gray-right.bea46370dc3b56dcedd4.png",
     "static/media/anti-arrow-gray-left.png": "/julia-page-front/static/media/anti-arrow-gray-left.255982e7e4e209393050.png",
     "index.html": "/julia-page-front/index.html",
-    "main.01af4390.css.map": "/julia-page-front/static/css/main.01af4390.css.map",
-    "main.13cd8cb7.js.map": "/julia-page-front/static/js/main.13cd8cb7.js.map"
+    "main.f6ea864b.css.map": "/julia-page-front/static/css/main.f6ea864b.css.map",
+    "main.3c10d73c.js.map": "/julia-page-front/static/js/main.3c10d73c.js.map"
   },
   "entrypoints": [
-    "static/css/main.01af4390.css",
-    "static/js/main.13cd8cb7.js"
+    "static/css/main.f6ea864b.css",
+    "static/js/main.3c10d73c.js"
   ]
 }
