@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import Slide from "../../components/Slide/Slide";
 
 import css from "./Home.module.css";
@@ -19,9 +20,7 @@ const Home = () => {
           slideText={"Titile slide_2 test"}
         />
       </section>
-      <section>
-        Test section asdaas asdaasd asdasdasd asdaasd <p>test</p>
-      </section>
+      <Footer />
     </>
   );
 };

@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home";
 import Prices from "./pages/Prices";
 import Contacts from "./pages/Contacts";
 import NotFound from "./pages/NotFound";
-import SharedLayout from "./components/Header/SharedLayout";
+import SharedLayout from "./components/SharedLayout/SharedLayout";
 
 function App() {
   return (

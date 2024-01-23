@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { HomeSvgSelector } from "../../HomeSvgSelector/HomeSvgSelector";
+import { SvgSelector } from "../../../SvgSelector/SvgSelector";
 
 import css from "./LanguageDropdownMenu.module.css";
 
@@ -36,7 +36,7 @@ const LanguageDropdownMenu = () => {
       onMouseLeave={toggleDropdown}
       className={css.container}
     >
-      <HomeSvgSelector id="language" width={14} height={14} />
+      <SvgSelector id="language" width={14} height={14} />
       <span>Выбери язык</span>
       {dropdownVisible && (
         <div

@@ -1,8 +1,8 @@
-import HeaderContactsBar from "./HeaderContactsBar/HeaderContactsBar";
+import HeaderContactsBar from "../Header/HeaderContactsBar/HeaderContactsBar";
 import css from "./SharedLayout.module.css";
 
-import HeaderRegistrationBar from "./HeaderRegistrationBar/HeaderRegistrationBar";
-import HeaderNav from "./HeaderNav/HeaderNav";
+import HeaderRegistrationBar from "../Header/HeaderRegistrationBar/HeaderRegistrationBar";
+import HeaderNav from "../Header/HeaderNav/HeaderNav";
 import { Outlet } from "react-router-dom";
 const SharedLayout = () => {
   return (
