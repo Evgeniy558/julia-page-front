@@ -49,9 +49,7 @@ const Slide = ({
             <div className={`slide ${state} ${slideType}`}>
               <div
                 className="slide_photo"
-                style={{
-                  backgroundImage: `${urlImg}`,
-                }}
+                style={{ background: `url(${urlImg}) center/cover no-repeat` }}
               ></div>
               <header className="slide_info">
                 <h3 className="slide_title">{slideTitle}</h3>
@@ -66,9 +64,7 @@ const Slide = ({
               </header>
               <div
                 className={`slide_photo ${slideType}`}
-                style={{
-                  backgroundImage: `${urlImg}`,
-                }}
+                style={{ background: `url(${urlImg}) center/cover no-repeat` }}
               ></div>
             </div>
           )
