@@ -4,6 +4,9 @@
   background-color: var(--secondary-color);
   min-width: var(--min-mobile-width);
   max-width: var(--max-mobile-width);
+  font-family: var(--font-family-ru-secondary);
+  font-size: var(--base-font-size);
+  line-height: 1.5rem;
 }
 @media screen and (min-width: 768px) {
   .Container {

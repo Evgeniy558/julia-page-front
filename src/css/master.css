@@ -1,10 +1,11 @@
 :root {
   --primary-color: #3498db;
-  --secondary-color: rgb(227, 245, 248);
+  --secondary-color: rgb(255, 255, 255);
   --primary-hover-color: rgb(251, 255, 0);
   --primary-text-color: black;
   --font-family: "Roboto", sans-serif;
   --font-family-ru: "Miama-Nueva", sans-serif;
+  --font-family-ru-secondary: "Montserrat-Regular", sans-serif;
   --base-font-size: 16px;
   --secondary-font-size: 14px;
   --min-mobile-width: 320px;
